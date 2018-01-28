@@ -1,13 +1,15 @@
-package com.example.user.test;
+package com.example.user.test.advance;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class BasicActivity extends AppCompatActivity {
+import com.example.user.test.R;
+
+public class AdvanceActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_basic);
+        setContentView(R.layout.activity_advance);
     }
 }
