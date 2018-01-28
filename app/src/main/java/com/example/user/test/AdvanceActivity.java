@@ -3,11 +3,11 @@ package com.example.user.test;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 
-public class Index extends AppCompatActivity {
+public class AdvanceActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_index);
+        setContentView(R.layout.activity_advance);
     }
 }
